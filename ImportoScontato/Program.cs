@@ -8,11 +8,11 @@ namespace ImportoScontato
         {
             Console.WriteLine("imetti l'importo");
             double totale = double.Parse(Console.ReadLine());
-            double sconto = totale * 100 / 20;
+            double sconto = totale *20 / 100;
             if (totale > 100)
             {
                 double importo = totale - sconto;
-                Console.WriteLine($"l'importo scontato è{importo}");
+                Console.WriteLine($"l'importo scontato è {importo}");
 
             }
             else
